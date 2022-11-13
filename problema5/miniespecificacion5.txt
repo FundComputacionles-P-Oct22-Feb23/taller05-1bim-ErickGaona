@@ -1,0 +1,52 @@
+ALGORITMO
+1. Inicio
+2. ingrese el numero de litros de agua
+3. ingrese el costo por litros de agua
+4. ingrese el numero de min gastados
+5. ingrese el costo de cada min
+6. calcular costo de servicios 
+7. sumar costo de servicios
+8. presentar el total a pagaar de los servicios
+9. si edad es <20 entonces
+10. aplicar descuento a suma costo de servicios
+11. presentar total a pagar  con su debido descuento 
+12. fin
+-----------------------------------------------------
+-----------------------------------------------------
+1.Inicio
+2.edad, i[0-n]
+3.litros_agua, d[0-n]
+4.minutos_telefono, d[0-n]
+5.costo_agua, d[0-n]
+6.costo_telefono, d[0-n]
+7.mensual_agua, d[0-n]
+8.mensual_telefono, d[0-n]
+
+9.<< "Ingrese su edad por favor"
+10>> edad
+
+11.<< "Ingrese el número de litros de agua consumidos en el mes"
+12.>> litros_agua
+
+13.<< ¨Ingrese el costo a pagar del agua¨
+14.>> costo_agua
+
+15.<< ¨ingrese el número de minutos consumidos en el mes¨
+16. >> minutos_telefono
+
+17.<< ¨Ingrese el costo a pagar del telefono¨
+18.>> costo_telefono
+
+19.mensual_agua <-- litros_agua * costo_agua
+20.mensual_telefono <-- minutos_telefono * costo_telefono
+
+21.subtotal <-- mensual_agua + mensual_telefono
+22.Si edad < 20 entonces
+23. total <-- subtotal * descuento
+24. total <-- total - descuento
+25.<< "el valor a cancelar es:"+ total
+26. <<"el valor a cancelar es: "+ subtotal
+27. de lo contrario 
+28. << "el valor a cancelar es:"+ total
+29. fin si
+30. fin
